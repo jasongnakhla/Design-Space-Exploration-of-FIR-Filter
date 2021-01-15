@@ -34,7 +34,7 @@ entity FIR_FILTER is
         y: out STD_LOGIC_VECTOR(36 downto 0));
 end FIR_FILTER;
 
-architecture Behavioral of FIR_FILTER is
+architecture Behavioral of FIR_FILTER_Parallel is
 
 component Parallel is
 Port (  clk: in STD_LOGIC;
